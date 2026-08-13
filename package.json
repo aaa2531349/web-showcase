@@ -1,1 +1,9 @@
-{"scripts":{"dev":"vite --host 0.0.0.0","build":"vite build --outDir dist --emptyOutDir && vite build opus --outDir ../dist/opus --emptyOutDir && mkdir -p dist/opus/src dist/opus/public && cp opus/src/main.js dist/opus/src/main.js && cp -R opus/public/assets dist/opus/public/ && vite build loops --outDir ../dist/loops --emptyOutDir && mkdir -p dist/loops/src dist/loops/public && cp loops/src/main.js dist/loops/src/main.js && cp -R loops/public/assets dist/loops/public/ && vite build menowo --outDir ../dist/menowo --emptyOutDir && mkdir -p dist/menowo/src dist/menowo/public && cp menowo/src/main.js menowo/src/services.css dist/menowo/src/ && cp -R menowo/public/assets dist/menowo/public/ && vite build genora --outDir ../dist/genora --emptyOutDir && vite build detoy --outDir ../dist/detoy --emptyOutDir && vite build gent --outDir ../dist/gent --emptyOutDir && cp gent/reference.html dist/gent/reference.html"},"devDependencies":{"vite":"^7.1.2"}}
+{
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build --outDir dist --emptyOutDir && vite build opus --outDir ../dist/opus --emptyOutDir && mkdir -p dist/opus/src dist/opus/public && cp opus/src/main.js dist/opus/src/main.js && cp -R opus/public/assets dist/opus/public/ && vite build loops --outDir ../dist/loops --emptyOutDir && mkdir -p dist/loops/src dist/loops/public && cp loops/src/main.js dist/loops/src/main.js && cp -R loops/public/assets dist/loops/public/ && vite build menowo --outDir ../dist/menowo --emptyOutDir && mkdir -p dist/menowo/src dist/menowo/public && cp menowo/src/main.js menowo/src/services.css dist/menowo/src/ && cp -R menowo/public/assets dist/menowo/public/ && vite build genora --outDir ../dist/genora --emptyOutDir && vite build detoy --outDir ../dist/detoy --emptyOutDir && vite build gent --outDir ../dist/gent --emptyOutDir && cp gent/reference.html dist/gent/reference.html && vite build kind-stage --outDir ../dist/kind-stage --emptyOutDir"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
+  }
+}
