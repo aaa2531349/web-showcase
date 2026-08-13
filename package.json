@@ -1,0 +1,1 @@
+{"scripts":{"dev":"vite loops --host 0.0.0.0","build":"vite build loops --outDir ../dist/loops --emptyOutDir && mkdir -p dist/loops/src dist/loops/public && cp loops/src/main.js dist/loops/src/main.js && cp -R loops/public/assets dist/loops/public/"},"devDependencies":{"vite":"^7.1.2"}}
