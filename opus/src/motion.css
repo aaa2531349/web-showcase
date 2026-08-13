@@ -29,3 +29,5 @@
 @media(max-width:800px){.footer-social{display:flex;flex-wrap:wrap;gap:20px}.footer-main nav{display:flex;flex-direction:row;flex-wrap:wrap;gap:20px}}
 
 @media(min-width:801px){.footer-main{position:relative;display:block}.footer-brand{width:43%}.footer-email{position:absolute;left:46.5%;top:60px;width:53.5%}.footer-social{position:absolute;left:0;bottom:38px}.footer-main nav{position:absolute;right:0;bottom:38px;display:flex;flex-direction:row;gap:34px}.footer-main .footer-email>a{font-size:44px!important}}
+
+@media(min-width:801px){.footer-top{height:650px}.footer-cta h2{font-size:clamp(68px,5.6vw,108px);line-height:.98;letter-spacing:-.06em}.footer-cta p{font-size:22px;line-height:1.35;margin:38px 0 46px}.footer-cta a{font-size:22px;padding:24px 50px;border-radius:12px}}
