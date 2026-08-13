@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="YUYA — independent designer based in Tokyo"
+    />
+    <title>YUYA — Minimal Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <header class="nav load-in">
+      <a class="logo" href="#top">YUYA</a>
+      <nav>
+        <a href="#work">Works</a><a href="#about">About</a
+        ><a href="#contact">Contact</a>
+      </nav>
+      <button class="menu" aria-label="Open navigation">
+        <i></i><i></i><i></i><i></i>
+      </button>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-name" aria-label="Yume Yaskumi">
+          <div class="line-mask"><h1>YUME</h1></div>
+          <div class="line-mask"><h1>YASKUMI</h1></div>
+        </div>
+        <img
+          class="avatar load-scale"
+          src="./assets/avatar.png"
+          alt="Avatar image"
+        />
+        <div class="hero-bottom">
+          <button class="email copy-button" data-copy="hello@yume.com">
+            hello@yume.com <span>▣</span>
+          </button>
+          <p class="intro reveal">
+            Hello, I'm a freelancer specializing in minimal design with 10 years
+            of expertise — based in Tokyo, working remote. Let’s create!
+          </p>
+        </div>
+      </section>
+      <section class="section work" id="work">
+        <div class="section-head reveal">
+          <h2>work.</h2>
+          <a class="soft-button" href="#work">Show More</a>
+        </div>
+        <div class="projects">
+          <a class="project reveal" href="#work"
+            ><div class="media">
+              <img
+                data-parallax="-0.055"
+                src="./assets/stone.jpeg"
+                alt="Stone Mind cover"
+              />
+              <h3>Stone Mind</h3>
+              <span class="arrow">↗</span>
+            </div></a
+          ><a class="project reveal" href="#work"
+            ><div class="media">
+              <img
+                data-parallax="0.045"
+                src="./assets/violet.png"
+                alt="Violet Orbit cover"
+              />
+              <h3>Violet Orbit</h3>
+              <span class="arrow">↗</span>
+            </div></a
+          ><a class="project reveal" href="#work"
+            ><div class="media">
+              <img
+                data-parallax="-0.045"
+                src="./assets/screen.png"
+                alt="Visual Screen Models cover"
+              />
+              <h3>Visual Screen Models</h3>
+              <span class="arrow">↗</span>
+            </div></a
+          ><a class="project reveal" href="#work"
+            ><div class="media">
+              <img
+                data-parallax="0.055"
+                src="./assets/flexible.png"
+                alt="Flexible Area Models cover"
+              />
+              <h3>Flexible Area Models</h3>
+              <span class="arrow">↗</span>
+            </div></a
+          >
+        </div>
+      </section>
+      <section class="section about" id="about">
+        <div class="section-head reveal">
+          <h2>about.</h2>
+          <a class="soft-button" href="#contact">Show More</a>
+        </div>
+        <p class="about-lead text-wipe">
+          I collaborate with businesses of all sizes worldwide, using the latest
+          technologies. My designs have also earned multiple awards.
+        </p>
+        <div class="about-stage">
+          <div class="about-image reveal">
+            <img
+              data-parallax="-0.07"
+              src="./assets/about.jpeg"
+              alt="Woman with laptop"
+            />
+          </div>
+          <p class="about-copy reveal">
+            I’m dedicated to crafting beautiful and highly functional designs
+            that seamlessly align with my clients' unique needs and long-term
+            goals.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="socials reveal">
+        <a href="https://linkedin.com">Linkedin</a
+        ><a href="https://x.com">Twitter</a
+        ><a href="https://behance.net">Behance</a>
+      </div>
+      <h2 class="footer-title text-wipe">
+        Curious about what we can create together?<br />Let’s bring something
+        extraordinary to life!
+      </h2>
+      <div class="footer-cta reveal">
+        <a class="contact-button" href="mailto:hello@yuya.com">Get in Touch</a
+        ><span class="availability"><i></i> Available For Work</span>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <a href="tel:+819012345678">+81 (0)90 1234 5678</a
+          ><a href="mailto:hello@yuya.com">hello@yuya.com</a>
+        </div>
+        <div>
+          <span>Designed &amp; Developed</span><span>by Peter Hodak</span>
+        </div>
+        <div><span>All rights reserved,</span><span>YUYA ©2024</span></div>
+      </div>
+    </footer>
+    <div class="copy-toast">Copied to clipboard</div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
