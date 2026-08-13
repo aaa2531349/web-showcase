@@ -31,3 +31,25 @@
 @media(min-width:801px){.footer-main{position:relative;display:block}.footer-brand{width:43%}.footer-email{position:absolute;left:46.5%;top:60px;width:53.5%}.footer-social{position:absolute;left:0;bottom:38px}.footer-main nav{position:absolute;right:0;bottom:38px;display:flex;flex-direction:row;gap:34px}.footer-main .footer-email>a{font-size:44px!important}}
 
 @media(min-width:801px){.footer-top{height:650px}.footer-cta h2{font-size:clamp(68px,5.6vw,108px);line-height:.98;letter-spacing:-.06em}.footer-cta p{font-size:22px;line-height:1.35;margin:38px 0 46px}.footer-cta a{font-size:22px;padding:24px 50px;border-radius:12px}}
+
+/* Live-reference hero: wide desktop uses a true 1800px canvas at 2048px. */
+@media(min-width:1200px){
+  .shell{width:calc(100% - 248px);max-width:none}
+  .nav{padding-inline:124px}
+  .hero{height:1160px}
+  .hero-title{inset:218px 0 auto}
+  .hero h1{font-family:Inter,Arial,sans-serif;font-size:240px;font-weight:600;line-height:.8;letter-spacing:-.06em}
+  .hero h1 span:first-child{margin-left:37%}
+  .hero h1 span:last-child{margin-top:88px}
+  .hero-media{top:497.656px;width:calc((100% - 20px)/2);height:280.859px}
+  .hero-copy{top:839px;padding-top:65px}
+}
+
+@media(min-width:1200px) and (max-width:1700px){
+  .shell{width:calc(100% - 120px)}
+  .nav{padding-inline:60px}
+  .hero h1{font-size:clamp(150px,11.72vw,240px)}
+  .hero h1 span:last-child{margin-top:clamp(16px,4.3vw,88px)}
+  .hero-media{top:clamp(425px,28.3vw,580px);height:clamp(205px,13.72vw,281px)}
+  .hero-copy{top:clamp(690px,45vw,921px)}
+}
