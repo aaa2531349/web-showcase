@@ -1,0 +1,21 @@
+.menu > div { align-self: flex-end; text-align: right; }
+
+/* Match the reference site's restrained desktop canvas on wide screens. */
+main,
+footer {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.sector-row {
+  align-items: start;
+}
+
+.sector-row figure:nth-child(even) {
+  transform: translateY(55px);
+}
+
+.sector-row figure:nth-child(even).in {
+  transform: none;
+}
